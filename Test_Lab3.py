@@ -26,7 +26,7 @@ def test_bubble_less_ten():
 def test_bubble_more_ten():
     result = []
     input_arr = [64, 34, 25, 12, 22, 11, 90, 96, 99, 100, 110]
-    test_arr =
+    test_arr = 1
 
     result = Lab3.bubble_sort(input_arr, Lab3.SORT_DESCENDING)
 
