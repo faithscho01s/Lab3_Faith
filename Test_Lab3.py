@@ -12,6 +12,26 @@ def test_bubble_sort_ascending():
 
     assert (result == test_arr)
 
+def test_bubble_less_ten():
+    result = []
+    input_arr = [64, 34, 25, 12, 22, 11, 90]
+    test_arr = [11, 12, 22, 25, 34, 64, 90]
+    result = Lab3.bubble_sort(input_arr, Lab3.SORT_ASCENDING)
+    if result == test_arr:
+        value = 2
+        result = value
+
+    assert (result == value)
+
+def test_bubble_more_ten():
+    result = []
+    input_arr = [64, 34, 25, 12, 22, 11, 90, 96, 99, 100, 110]
+    test_arr =
+
+    result = Lab3.bubble_sort(input_arr, Lab3.SORT_DESCENDING)
+
+    assert (result == test_arr)
+
 def test_bubble_sort_descending():
     result = []
     input_arr = [64, 34, 25, 12, 22, 11, 90]
